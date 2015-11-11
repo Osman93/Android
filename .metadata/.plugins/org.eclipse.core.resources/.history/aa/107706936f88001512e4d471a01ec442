@@ -12,9 +12,8 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-      
-        android:text="Bakalım kaç kez tıklayacan:D" 
-         android:background="@drawable/sekil"/>
+        android:background="#B81010"
+        android:text="Bakalım kaç kez tıklayacan:D" />
 
     <Button
         android:id="@+id/button2"

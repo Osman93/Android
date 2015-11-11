@@ -28,7 +28,7 @@ int counter=0,count=0;
 			@Override
 			public void onClick(View v) {
 				count++;
-				b1.setText("\t   \t"+count);
+				b1.setText("\t   "+count);
 				
 			}
 		});
@@ -53,7 +53,6 @@ int counter=0,count=0;
 			return false;
 		}
 	});
-      
         
     }
 
