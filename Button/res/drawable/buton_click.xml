@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- 
+   *Burası XML yorum satırı için kullanılır burada custom buton yaptığımız içi:
+   1)Tıklandığı zaman butona click.png gösterilecek
+   2)Tıklamadığımız zaman butona not_click.png gösterilecektir.
+   Bunun için bu XML yapısını oluşturduk.
+    -->
+
+<item android:state_pressed="true" android:drawable="@drawable/click" />
+<item android:drawable="@drawable/not_click" /> 
+</selector>
