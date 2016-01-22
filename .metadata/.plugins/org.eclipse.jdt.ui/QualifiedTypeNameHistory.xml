@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.example.edit.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnKeyListener"/>
+<fullyQualifiedTypeName name="android.view.KeyEvent"/>
+<fullyQualifiedTypeName name="com.example.edit.MainActivity"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+</qualifiedTypeNameHistroy>

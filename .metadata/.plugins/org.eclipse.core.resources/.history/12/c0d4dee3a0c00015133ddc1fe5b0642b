@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.edit.MainActivity" >
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="189dp"
+        android:background="@drawable/edit_top"
+        android:drawableRight="@drawable/buyutec"
+        android:ems="10"
+        android:hint="Büyüteç"
+        android:padding="10dp"
+        android:textColorHint="#cccccc" 
+        ></EditText>"
+
+    
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Bu EditText&apos;in hint özelliği"
+        android:textColor="#980A0A"
+        android:textColorHint="#980A0A"
+        android:theme="@android:style/Theme.Holo" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/edit_fill"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
