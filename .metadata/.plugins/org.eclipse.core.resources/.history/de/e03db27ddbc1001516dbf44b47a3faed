@@ -1,0 +1,31 @@
+package com.example.textview;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+
+public class MainActivity extends Activity {
+TextView text;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        text=(TextView)findViewById(R.id.textView1);
+        text.setOnLongClickListener(new View.OnLongClickListener() {
+			
+			@Override
+			public boolean onLongClick(View v) {
+				// TODO Auto-generated method stub
+				text.setText("Osman");
+				return false;
+			}
+		});
+        
+        
+    }
+
+  
+}
