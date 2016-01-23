@@ -55,12 +55,12 @@ int count=0,count2=0;
 		switch(v.getId()){
 		case R.id.button1:
 			if(count%2==0){
-				text.setVisibility(4);//visibile için 0,invisible için 4 girmek lazým
+				text.setVisibility(View.INVISIBLE);//visibile için 0,invisible için 4 girmek lazým
 				b1.setText("Görünür");
 			}
 			else{
 				
-				text.setVisibility(0);
+				text.setVisibility(View.VISIBLE);
 				b1.setText("Görünmez");
 			}
 			count++;
