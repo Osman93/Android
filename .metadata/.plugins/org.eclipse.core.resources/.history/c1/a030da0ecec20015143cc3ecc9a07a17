@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HesapMakinesi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="x_two">x<sup>2</sup></string>
+    <string name="x_n">x<sup>n</sup></string>
+    
+    <string name="log">lg<sub>2</sup></string>
+    <string name="log10">lg<sub>10</sup></string>
+    <string name="ln">ln<sub>e</string>
+
+</resources>
