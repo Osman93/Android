@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#121212" >
+
+  <LinearLayout 
+      
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      
+      > 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonAnimPlus"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:text="+"
+            android:textSize="40sp"
+            android:background="@drawable/button_operation"
+            android:textColor="#FFFFFF"
+             />
+
+        <Button
+            android:id="@+id/buttonAnimMinus"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:text="-"
+            android:textSize="40sp"
+            android:background="@drawable/button_operation"
+            android:textColor="#FFFFFF" />
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/appText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.19"
+            android:text="Calculator"
+            android:textColor="#FFFFFF"
+            android:visibility="invisible"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" 
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAnimMix"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:text="X" 
+            android:textSize="40sp"
+            android:background="@drawable/button_operation"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/buttonAnimDiv"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:text="/"
+            android:textSize="40sp"
+            android:background="@drawable/button_operation"
+            android:textColor="#FFFFFF" />
+       
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
