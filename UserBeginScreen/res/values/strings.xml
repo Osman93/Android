@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UserBeginScreen</string>
+    <string name="hintUser">Kullanıcı İsmi</string>
+    <string name="hintPass">Şifre</string>
+    <string name="buttonAccess">Giriş</string>
+    <string name="action_settings">Settings</string>
+    <string name="Succed">Giriş Başarılı...Hoşgeldin </string>
+    <string name="Fail">Kullanıcı adı veya Şifre yanlış</string>
+    <string-array name="user" >
+        <item >Osman</item>
+        <item >osman12345</item>
+        
+        
+    </string-array>
+<string-array name="menuList">
+        <item >Anasayfa</item>
+        <item >Profil</item>
+        <item >Mesajlar</item>
+        <item >Bildirimler</item>
+        <item >Ayarlar</item>
+        <item >Çıkış</item>
+    </string-array>
+</resources>

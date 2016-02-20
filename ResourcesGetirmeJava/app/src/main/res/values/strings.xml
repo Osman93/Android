@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ResourcesGetirmeJava</string>
+
+    <string name="name">Osman</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Kaydet</string>
+    <string-array name="cities">
+        <item>Türkiye</item>
+        <item>Amerika</item>
+
+
+    </string-array>
+    <integer-array name="number">
+        <item>15</item>
+        <item>25</item>
+        <item>5</item>
+        <item>99</item>
+        <item>286</item>
+        <item>512</item>
+    </integer-array>
+
+</resources>

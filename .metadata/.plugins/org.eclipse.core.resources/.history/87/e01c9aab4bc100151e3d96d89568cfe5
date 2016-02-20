@@ -1,5 +1,0 @@
-package com.example.userbeginscreen;
-
-public class User extends Activity {
-
-}

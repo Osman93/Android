@@ -1,0 +1,48 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="A"
+        android:id="@+id/button"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="B"
+        android:id="@+id/button2"
+        android:layout_x="338dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="C"
+        android:id="@+id/button3"
+        android:layout_x="0dp"
+        android:layout_y="503dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="D"
+        android:id="@+id/button4"
+        android:layout_x="335dp"
+        android:layout_y="503dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:text="F"
+        android:id="@+id/button5"
+        android:layout_x="137dp"
+        android:layout_y="264dp" />
+</AbsoluteLayout>
